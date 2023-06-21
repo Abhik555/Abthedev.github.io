@@ -146,30 +146,21 @@ body{
     text-align:center;
 }
 
-.pro1{
+.pro1 , .pro2 , .pro3{
     width: fit-content;
     height: fit-content;
     background-color: white;
     margin: 20px;
     box-shadow: 1px 1px 5px 5px black;
-}
-
-.pro2{
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    margin: 20px;
-    box-shadow: 1px 1px 5px 5px black;
-}
-
-.pro3{
-    width: fit-content;
-    height: fit-content;
-    background-color: white;
-    margin: 20px;
-    box-shadow: 1px 1px 5px 5px black;
+    z-index: 1;
 }
 
 .pro1:hover , .pro2:hover , .pro3:hover{
     transform: scale(1.04);
+}
+
+.ab1 , .ab2 , .ab3{
+    visibility: hidden;
+    background-color: black;
+    z-index: 2;
 }

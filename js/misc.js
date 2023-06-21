@@ -14,37 +14,82 @@ function submitsuggestion(){
 }
 
 function hover(item){
+
     var divname = null;
+    var parent = null;
+    var obj = null;
+
     switch(item.id){
         case "1P":
-            divname = "proj1";
+            divname = "pro1";
             break;
         case "2P":
-            divname = "proj2";
+            divname = "pro2";
             break;
         case "3P":
-            divname = "proj3";
+            divname = "pro3";
             break;
         default:
             divname = "Not Found";
     }
-    console.log(divname);
+
+    parent = document.getElementById(divname);
+    
+    switch(divname){
+        case "pro1":
+            obj = document.getElementById("abo1");
+            break;
+        case "pro2":
+            obj = document.getElementById("abo2");
+            break;
+        case "pro3":
+            obj = document.getElementById("abo3");
+            break;
+        default:
+            obj = "Not Found ERROR"
+    }
+
+    obj.style.visibility = "visible";
+    parent.style.visibility = "hidden";
 }
 
 function revert(item){
+
     var divname = null;
+    var obj = null;
+    var parent = null;
+
     switch(item.id){
         case "1P":
-            divname = "proj1";
+            divname = "pro1";
             break;
         case "2P":
-            divname = "proj2";
+            divname = "pro2";
             break;
         case "3P":
-            divname = "proj3";
+            divname = "pro3";
             break;
         default:
             divname = "Not Found";
     }
-    console.log(divname);
+    
+    parent = document.getElementById(divname);
+
+    switch(divname){
+        case "pro1":
+            obj = document.getElementById("abo1");
+            break;
+        case "pro2":
+            obj = document.getElementById("abo2");
+            break;
+        case "pro3":
+            obj = document.getElementById("abo3");
+            break;
+        default:
+            obj = "Not Found ERROR"
+    }
+
+    obj.style.visibility = "hidden";
+    parent.style.visibility = "visible";
+
 }
