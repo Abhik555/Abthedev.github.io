@@ -12,3 +12,39 @@ function submitsuggestion(){
     console.log(idea)
     console.log(author)
 }
+
+function hover(item){
+    var divname = null;
+    switch(item.id){
+        case "1P":
+            divname = "proj1";
+            break;
+        case "2P":
+            divname = "proj2";
+            break;
+        case "3P":
+            divname = "proj3";
+            break;
+        default:
+            divname = "Not Found";
+    }
+    console.log(divname);
+}
+
+function revert(item){
+    var divname = null;
+    switch(item.id){
+        case "1P":
+            divname = "proj1";
+            break;
+        case "2P":
+            divname = "proj2";
+            break;
+        case "3P":
+            divname = "proj3";
+            break;
+        default:
+            divname = "Not Found";
+    }
+    console.log(divname);
+}

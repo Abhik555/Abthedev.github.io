@@ -133,3 +133,43 @@ body{
     outline: 0;
     padding: 10px 100px;
 }
+
+/* projects list */
+
+.projects{
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.pro1{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+
+.pro2{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+
+.pro3{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+
+.pro1:hover , .pro2:hover , .pro3:hover{
+    transform: scale(1.04);
+}
