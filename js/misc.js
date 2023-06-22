@@ -49,8 +49,8 @@ function hover(item){
             obj = "Not Found ERROR"
     }
 
-    obj.style.visibility = "visible";
-    parent.style.visibility = "hidden";
+    //obj.style.visibility = "visible";
+    //parent.style.visibility = "hidden";
 }
 
 function revert(item){
@@ -89,7 +89,7 @@ function revert(item){
             obj = "Not Found ERROR"
     }
 
-    obj.style.visibility = "hidden";
-    parent.style.visibility = "visible";
+    //obj.style.visibility = "hidden";
+    //parent.style.visibility = "visible";
 
 }
