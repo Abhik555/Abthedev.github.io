@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.30f9a1a4.css",
-    "main.js": "/static/js/main.d307e0bf.js",
+    "main.css": "/static/css/main.ce9c4f79.css",
+    "main.js": "/static/js/main.6293d4dc.js",
     "static/media/logo.png": "/static/media/logo.0eac191640f208cd8747.png",
     "static/media/404.svg": "/static/media/404.bdf1c60c297dc6528f56fe6a382dacdf.svg",
+    "static/media/me.jpg": "/static/media/me.ec52081d6ea27f5927dd.jpg",
+    "static/media/InboxIn Logo.png": "/static/media/InboxIn Logo.2b7937409f317904f07b.png",
+    "static/media/GroceryStore Management.png": "/static/media/GroceryStore Management.d2594539e315fbe45630.png",
+    "static/media/Project Logo Placeholder.png": "/static/media/Project Logo Placeholder.6da3f4881400724a19fb.png",
     "static/media/hello.svg.svg": "/static/media/hello.svg.35bb406122975b09372b147644345708.svg",
     "static/media/contact.svg": "/static/media/contact.5afba85556efd4cf6ec3c83e65972969.svg",
     "index.html": "/index.html",
-    "main.30f9a1a4.css.map": "/static/css/main.30f9a1a4.css.map",
-    "main.d307e0bf.js.map": "/static/js/main.d307e0bf.js.map"
+    "main.ce9c4f79.css.map": "/static/css/main.ce9c4f79.css.map",
+    "main.6293d4dc.js.map": "/static/js/main.6293d4dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f9a1a4.css",
-    "static/js/main.d307e0bf.js"
+    "static/css/main.ce9c4f79.css",
+    "static/js/main.6293d4dc.js"
   ]
 }
