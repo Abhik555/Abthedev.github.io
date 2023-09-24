@@ -1,2 +1,1 @@
-# Abthedev.github.io
-Github Pages Site for me
+![Abhik555.github.io](https://socialify.git.ci/Abhik555/Abhik555.github.io/image?description=1&descriptionEditable=A%20Self%20Developed%20Portfolio%20Website&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)
